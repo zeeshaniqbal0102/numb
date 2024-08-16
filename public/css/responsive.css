@@ -1,0 +1,185 @@
+/* @media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1026px) {
+}
+@media screen and (max-width: 1024px) {
+} */
+@media (max-width: 991px) {
+    .header-left {
+        text-align: center;
+    }
+    .header-right{
+        justify-content: center;
+    }
+}
+/* @media (max-width: 450px) {
+    .header-right{
+        display: none;
+    }
+    
+} */
+
+@media (max-width: 500px) {
+    #About h1{
+        color: white;
+        font-size: 33px;
+        margin-block: 20px;
+        font-family:var(--spacial-headnig) ;
+    }
+    .getbunny-right h1 {
+        font-family: var(--spacial-headnig);
+        font-size: 33px;
+        color: black;
+        margin-top: 20px;
+    }
+
+    .header-right button{
+        color: white;
+        padding: 5px 20px;
+        border: none;
+        background-color: var(--piurple);
+        border-radius: 40px;
+        font-size: 22px;
+        font-family: var(--spacial-headnig);
+        transition: 0.3s all;
+    }
+    .header-right button:hover{
+        color: white;
+        padding: 5px 20px;
+        border: none;
+        background-color: var(--pepgreen);
+        border-radius: 40px;
+        font-size: 22px;
+        font-family: var(--spacial-headnig);
+    }
+    .getbunny-right-btn1:hover {
+        background-color: var(--pepgreen);
+        font-family: var(--spacial-headnig);
+        color: white;
+        padding: 5px 5px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: none;
+        font-size: 16px;
+        transition: 0.3s all;
+    }
+    .getbunny-right-btn2:hover {
+        background-color: var(--pepgreen);
+        font-family: var(--spacial-headnig);
+        color: white;
+        border-radius: 10px;
+        color: white;
+        margin-top: 16px;
+        font-size: 20px;
+        padding: 5px 5px;
+        border: none;
+        margin-left: 40px;
+        transition: 0.3s all;
+    }
+    .getbunny-right-btn1 {
+        background-color: black;
+        font-family: var(--spacial-headnig);
+        color: white;
+        padding: 5px 5px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: none;
+        font-size: 16px;
+        transition: 0.3s all;
+    }
+    .getbunny-right-btn2 {
+        background-color: var(--piurple);
+        border-radius: 10px;
+        font-family: var(--spacial-headnig);
+        color: white;
+        margin-top: 16px;
+        font-size: 20px;
+        padding: 5px 5px;
+        border: none;
+        margin-left: 40px;
+        transition: 0.3s all;
+    }
+    #About2 h1 {
+        font-family: var(--spacial-headnig);
+        font-size: 40px;
+        color: black;
+    }
+    #About2 p {
+        font-family: var(--noraml-font);
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
+    }
+    #meet-team h1 {
+        font-family: var(--spacial-headnig);
+        font-size: 40px;
+        color: black;
+    }
+    #getbunny .row{
+        padding: 10px !important;
+    }
+    #meet-team .col-12{
+        padding: 10px !important;
+    }
+    #About .col-12{
+        padding: 10px !important;
+    }
+    #About2 .col-12{
+        padding: 10px !important;
+    }
+    
+    #About .about-main{
+        padding: 10px !important;
+    }
+    #About p{
+        color: white;
+        font-family:var(--noraml-font);
+        font-size: 17px;
+    }
+}
+/* @media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media screen and (max-width: 736px) {
+}
+@media screen and (max-width: 688px) {
+}
+@media screen and (max-width: 667px) {
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 568px) {
+}
+
+@media only screen and (max-width: 479px) {
+}
+@media screen and (max-width: 440px) {
+}
+@media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 384px) {
+}
+@media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 320px) {
+} */
+/*  -- //Responsive code --  */

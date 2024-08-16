@@ -1,0 +1,265 @@
+:root{
+  --piurple:#92278e;
+  --font-color:#545454;
+  --lightgray:#b2b2b2;
+  --lighgreen:#a0d194;
+  --pepgreen:#63ce10;
+  --ligh-brown:#fbebdc;
+  --spacial-headnig:'Barrio', cursive;
+  --noraml-font:'Architects Daughter', cursive;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* header ===================================== */
+#header{
+  background-color: black;
+  padding: 20px 0px;
+}
+.header-right {
+  padding-block: 20px;
+  justify-content: flex-end !important;
+}
+.header-right button{
+  color: white;
+  padding: 5px 25px;
+  border: none;
+  background-color: var(--piurple);
+  border-radius: 40px;
+  font-size: 22px;
+  font-family: var(--spacial-headnig);
+  transition: 0.3s all;
+}
+.header-right button:hover{
+  color: white;
+  padding: 5px 25px;
+  border: none;
+  background-color: var(--pepgreen);
+  border-radius: 40px;
+  font-size: 22px;
+  font-family: var(--spacial-headnig);
+}
+.header-right i{
+  
+  font-size: 27px;
+  color: var(--font-color);
+  margin-inline: 20px;
+}
+.header-right{
+  display:flex;
+  align-items: center;
+}
+
+/* header ===================================== */
+/* banner ======================================*/
+#banner-img img{
+  height: 100%;
+  width: 100%;
+}
+/* banner ======================================*/
+
+/* about ===================================== */
+#About{
+  background-color: black;
+}
+#About h1{
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-block: 20px;
+  font-family:var(--spacial-headnig) ;
+}
+#About p{
+  color: white;
+  font-family:var(--noraml-font);
+  font-size: 24px;
+}
+/* about ===================================== */
+
+
+/* getbunny ===========================================*/
+#getbunny{
+  background-color: var(--lightgray);
+}
+
+#getbunny img{
+  border-radius: 20px;
+}
+.getbunny-right h1{
+  font-family: var(--spacial-headnig);
+  font-size:48px;
+  color: black;
+}
+
+.getbunny-right h3{
+  font-family: var(--noraml-font);
+  font-size:31px;
+  color: black;
+}
+
+.getbunny-right-input{
+  width: 250px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 20px;
+  position: relative;
+}
+.getbunny-right label{
+  font-family: var(--noraml-font);
+  font-weight: 600;
+  color: black;
+}
+.getbunny-right-input::after{
+  content: "quantity";
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  color: black;
+}
+.getbunny-right-btn1{
+  background-color: black;
+  font-family: var(--spacial-headnig);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  transition: 0.3s all;
+}
+
+
+.getbunny-right-btn2{
+  background-color: var(--piurple);
+  border-radius: 50px;
+  font-family: var(--spacial-headnig);
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 40px;
+  transition: 0.3s all;
+}
+.getbunny-right-btn1:hover{
+  background-color: var(--pepgreen);
+  font-family: var(--spacial-headnig);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+}
+.getbunny-right-btn2:hover{
+  background-color: var(--pepgreen);
+  border-radius: 50px;
+  font-family: var(--spacial-headnig);
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 40px;
+}
+/* getbunny ===========================================*/
+
+
+/* green about section */
+#About2{
+  background-color: var(--lighgreen);
+}
+#About2 h1{
+  font-family: var(--spacial-headnig);
+  font-size: 48px;
+  color:black
+}
+#About2 p{
+  font-family: var(--noraml-font);
+  font-size: 24px;
+  color:black;
+  font-weight: 600;
+}
+/* green about section */
+/* meet-team */
+#meet-team{
+  background-color: var(--ligh-brown);
+}
+#meet-team h1{
+  font-family: var(--spacial-headnig);
+  font-size: 48px;
+  color:black;
+}
+.member-image img{
+  border-radius: 10px;
+}
+.creator h5{
+  font-family: var(--noraml-font);
+  color: black;
+  font-weight: 600;
+  margin: 0px;
+}
+.creator-p{
+  font-family: var(--noraml-font);
+  font-weight: 600;
+  font-size: 22px;
+}
+/* meet-team */
+/*** Specs ***/
+
+#specs {
+  background: #92278e;
+}
+#specs h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin-block: 20px;
+  font-family: var(--spacial-headnig);
+}
+
+#specs p {
+  color: white;
+  font-family: var(--noraml-font);
+  font-size: 24px;
+}
+
+/** Road Map **/
+
+#roadmap {
+  background-color: black;
+  padding-bottom: 5rem;
+}
+#roadmap h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-block: 20px;
+  font-family: var(--spacial-headnig);
+}
+#roadmap .p-5 {
+  padding: 3rem 0px 0px!important;
+}
+
+/* footer */
+.footer{
+  background-color: black;
+}
+.footer-icon{
+  font-size: 50px;
+  color: var(--font-color);
+  margin-inline: 20px;
+}
+.footer-icon p{
+  font-size: 20px;
+  font-family: var(--noraml-font);
+  font-weight: 600;
+}
+.footer i{
+  color: var(--font-color);
+}
+/* footer */
+
